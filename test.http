@@ -2,4 +2,4 @@
 GET http://localhost:1337/api/dishes
 
 ###fetch all categories
-GET http://localhost:1337/api/categories?populate=%2A
+GET http://golden-star.herokuapp.com/api/categories?populate=%2A

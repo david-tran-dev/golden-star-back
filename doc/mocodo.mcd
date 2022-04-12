@@ -1,0 +1,9 @@
+BOISSON: nom, description, volume, prix_comptoir, prix_salle
+POSSEDER1, 11 BOISSON, 0N CATEGORIE
+CATEGORIE: nom
+POSSEDER2, 0N CATEGORIE, 11 PLAT
+PLAT: nom, description, prix_salle
+
+POSSEDER3, 11 CATEGORIE, 0N SECTION
+
+SECTION: nom, sous-titre

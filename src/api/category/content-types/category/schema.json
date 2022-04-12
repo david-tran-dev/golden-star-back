@@ -28,6 +28,12 @@
       "relation": "oneToMany",
       "target": "api::dish.dish",
       "mappedBy": "category"
+    },
+    "section": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::section.section",
+      "inversedBy": "categories"
     }
   }
 }
