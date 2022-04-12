@@ -2,6 +2,8 @@
 
 | URL | GET | POST | PATCH | DELETE |
 |---|---|---|---|---|
+| /sections | ✅ | ✅ | ❌ | ❌ |
+| /sections/:id | ✅ | ❌ | ✅ | ✅ |
 | /categories | ✅ | ✅ | ❌ | ❌ |
 | /catgeories/:id | ✅ | ❌ | ✅ | ✅ |
 | /drinks | ✅ | ✅ | ❌ | ❌ |
@@ -11,6 +13,8 @@
 
 | URL | GET | POST | PATCH | DELETE |
 |---|---|---|---|---|
+| /sections | récupérer toutes les sections | créer une section | Cela devrait mettre à jour toutes les sections (cela ne se fait pas dans une API REST pas de config de route) | supprimer toutes les sections(ne pas faire!) |
+| /sections/:id | récupérer UNE section via son ID | créer une sections en fixant son id d'avance (NE PAS FAIRE!) | mettre à jour une section via son ID | supprimer une section via son ID |
 | /categories | récupérer toutes les categories | créer une catégorie | Cela devrait mettre à jour toutes les catégories (cela ne se fait pas dans une API REST pas de config de route) | supprimer toutes les catégories(ne pas faire!) |
 | /categories/:id | récupérer UNE catégorie via son ID | créer une catégories en fixant son id d'avance (NE PAS FAIRE!) | mettre à jour une catégorie via son ID | supprimer une catégorie via son ID |
 | /drinks | récupérer toutes les boissons | créer une boisson | mettre à jour toutes les boissons(ne pas faire !) | supprimer toutes les boissons(ne pas faire!) |
