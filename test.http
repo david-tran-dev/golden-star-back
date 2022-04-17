@@ -2,4 +2,4 @@
 GET http://localhost:1337/api/dishes
 
 ###fetch all categories
-GET http://golden-star.herokuapp.com/api/sections?populate[categories][populate][0]=dishes,drinks
+GET http://golden-star.herokuapp.com/api/sections?[sort][0]=id%3Aasc&populate[categories][populate][0]=dishes,drinks
